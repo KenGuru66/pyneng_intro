@@ -1,16 +1,20 @@
 """
+Задание 1.1
+
 Если запустить код задания, будет такой вывод:
-$ python task_01.py
-Python is a high-level, interpreted, general-purpose programming language.
+$ python task_1_1.py
+line1
+line2
+line3
 
 Надо преобразовать строку start_data таким образом, чтобы на экран была выведена
-такая строка (заменить Python на Ruby):
-$ python task_01.py
-Ruby is a high-level, interpreted, general-purpose programming language.
+такая строка
+$ python task_1_1.py
+line1 line2 line3
 
 При этом нельзя менять строку start_data вручную, то есть нельзя менять исходную строку
 start_data.
 """
-start_data = "Python is a high-level, interpreted, general-purpose programming language."
+start_data = "line1\nline2\nline3"
 print(start_data)
 
