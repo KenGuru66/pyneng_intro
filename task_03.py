@@ -17,5 +17,5 @@ $ python task_03.py
 Ограничение: исходную строку start_data нельзя менять вручную.
 """
 start_data = "Python is a high-level, interpreted, general-purpose programming language."
-print(start_data)
+print(start_data.replace(',', '').replace('.', '').split())
 

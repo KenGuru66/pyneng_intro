@@ -34,3 +34,7 @@ number_as_str = input("Введите число больше 10: ")
 number = int(number_as_str)
 pprint(number_as_str)
 pprint(number)
+if number > 10:
+    print('correct')
+else:
+    print('wrong')

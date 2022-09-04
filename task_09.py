@@ -23,3 +23,7 @@ numbers = [10, 20, 30, 40]
 print("=" * 30)
 for num in numbers:
     print(num)
+    if num < 40:
+        print("*" * 30)
+    else:
+        print("=" * 30)

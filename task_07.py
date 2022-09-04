@@ -31,3 +31,10 @@ $ python task_07.py
 В списке words нет такого индекса
 """
 words = ["word1", "word2", "word3"]
+index=int(input('Введите индекс: '))
+if index in range(-3,3):
+    print(words[index])
+else:
+    print('В списке words нет такого индекса')
+
+
